@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jurgyan *.css
+recursive-include jurgyan *.csv
+recursive-include jurgyan *.html
+recursive-include jurgyan *.ico
+recursive-include jurgyan *.js
+recursive-include jurgyan *.json
+recursive-include jurgyan *.md
+recursive-include jurgyan *.png
+recursive-include jurgyan *.py
+recursive-include jurgyan *.svg
+recursive-include jurgyan *.txt
+recursive-exclude jurgyan *.pyc
